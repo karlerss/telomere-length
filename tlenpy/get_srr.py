@@ -42,7 +42,6 @@ def download_sra(sra_name, base):
     ftp.cwd('/sra/sra-instant/reads/ByRun/sra/SRR/{}/{}/'.format(sra_name[0:6], sra_name))
     file_names = ftp.nlst()
     click.echo('Started download!')
-    #return
     with open(os.path.join(paths.get('tmp'), file_names[0]), 'wb') as local_file:
         ftp.retrbinary('RETR ' + file_names[0], local_file.write)
 

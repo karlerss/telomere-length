@@ -1,12 +1,22 @@
 #!/usr/bin/env bash
 
 if [ ! -f /data/sra/$1.sra ]; then
-    echo "File not found!"
+    echo "sra file not found!"
     ls /tlenpy
     python /tlenpy/get_srr.py $1 --base=/data
 fi
 
-fastq-dump /data/sra/$1.sra -X 5 -O /data/fastq
 cd /data/list
-glistmaker /data/fastq/$1.fastq -w 25 -o $1.list
-glistquery $1.list_25.list -all
+
+if [ ! -f /data/list/$1.list_25.list ]; then
+    if [ ! -f /data/fastq/$1.fastq ]; then
+        echo "Fastq not found, generating."
+        fastq-dump /data/sra/$1.sra -O /data/fastq
+    fi
+    echo "List not found, generating."
+    glistmaker /data/fastq/$1.fastq -w 25 -o $1.list -D
+fi
+
+echo "List found!"
+glistquery $1.list_25.list -q TTAGGGTTAGGGTTAGGGTTAGGGT
+
