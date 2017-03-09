@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+exit 1
+
 if [ ! -f /data/sra/$1.sra ]; then
     echo "sra file not found!"
     ls /tlenpy
