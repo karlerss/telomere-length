@@ -36,7 +36,7 @@ def setup_tree(path):
     if not os.path.exists(data_base):
         os.mkdir(data_base)
 
-    directories = ['list', 'result', 'logs', 'fasta']
+    directories = ['list', 'query_result', 'logs', 'fasta']
 
     paths = dict()
 

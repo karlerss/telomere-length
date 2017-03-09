@@ -23,18 +23,24 @@ paths = dict()
 def downloader():
     while True:
         job = q_download.get()
-        job.fetch()
 
-        # Add to processing queue if slot available. Otherwise block.
-        q_process.put(job)
+        successful = job.fetch()
 
-        # Keep the lock until job is in process-queue.
-        # Keeps process queue from joining prematurely.
-        q_download.task_done()
+        if not successful:
+            q_download.put(job)
+            q_download.task_done()
+        else:
+            # Add to processing queue if slot available. Otherwise block.
+            q_process.put(job)
+
+            # Keep the lock until job is in process-queue.
+            # Keeps process queue from joining prematurely.
+            q_download.task_done()
 
 
 def processor():
     while True:
+        # Block until job available.
         job = q_process.get()
         job.process()
         q_process.task_done()
@@ -45,9 +51,12 @@ def processor():
 @click.argument('query_list', type=click.File())
 @click.option('--data_root', '-d', default='/data', type=click.Path(exists=True),
               help='Directory for outputs and temp files.')
-@click.option('--ncbi_root', '-n', default='/data/ncbi', type=click.Path(exists=True),
+@click.option('--ncbi_root', '-n', default='/data/ncbi', type=click.Path(exists=False),
               help='The ncbi data directory. Can be configured from ~/.ncbi/user-settings.mkfg')
-def main(run_table, query_list, data_root, ncbi_root):
+@click.option('--check_fasta', type=click.BOOL, default=False)
+@click.option('--fasta_limit', type=click.INT, default=0,
+              help='Set limit on dumped fasta lines. 3000 is optimal for debugging.')
+def main(run_table, query_list, data_root, ncbi_root, check_fasta, fasta_limit):
     global paths
 
     paths = setup_tree(data_root)
@@ -56,10 +65,13 @@ def main(run_table, query_list, data_root, ncbi_root):
 
     check_bins(logger)
 
+    Job.set_fasta_limit(fasta_limit)
+    Job.set_fasta_check(check_fasta)
     Job.set_logger(logger)
     Job.set_paths(paths)
     Job.set_q_download(q_download)
     Job.set_q_process(q_process)
+    Job.set_kmer_sample_path(os.path.realpath(query_list.name))
 
     # TODO: remove sra lock and cache files before run
 

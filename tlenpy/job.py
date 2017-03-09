@@ -7,6 +7,9 @@ class Job:
     q_download = None
     q_process = None
     paths = None
+    kmer_sample_path = None
+    fasta_check = False
+    fasta_limit = 0
 
     def __init__(self, name):
         self.name = name
@@ -17,6 +20,14 @@ class Job:
         self.list_created = False
         self.list_deleted = False
         self.result_dumped = False
+
+    @classmethod
+    def set_fasta_limit(cls, val):
+        cls.fasta_limit = val
+
+    @classmethod
+    def set_fasta_check(cls, val):
+        cls.fasta_check = val
 
     @classmethod
     def set_logger(cls, val):
@@ -33,6 +44,10 @@ class Job:
     @classmethod
     def set_paths(cls, val):
         cls.paths = val
+
+    @classmethod
+    def set_kmer_sample_path(cls, val):
+        cls.kmer_sample_path = val
 
     @classmethod
     def call(cls, command):
@@ -52,48 +67,85 @@ class Job:
         return p.returncode
 
     def fetch(self):
+        if self.fasta_check and os.path.exists(os.path.join(self.paths['fasta'], self.name + '.fasta')):
+            self.logger.warn('%s.fasta exists!', self.name)
+            self.fasta_dumped = True
+            return True
+        self.logger.info('Prefetching %s', self.name)
         # Call prefetch
         res = self.call(['prefetch', self.name, '-v', '-L', '5'])
         if res is 0:
             self.sra_downloaded = True
             self.logger.info('Fetched %s | %d in download queue', self.name, self.q_download.qsize())
+            return True
         else:
             self.logger.error('Fetching %s failed!', self.name)
+            return False
+
+    def create_fasta(self):
+        if not self.fasta_dumped:
+            args = ['fastq-dump', self.name, '-O', self.paths['fasta'], '--fasta', '-v', '--split-spot']
+
+            if self.fasta_limit:
+                args.extend(['-X', self.fasta_limit])
+
+            res = self.call(args)
+            if res is 0:
+                self.fasta_dumped = True
+
+    def create_glist(self):
+        self.logger.info("Starting glistmaker for %s!", self.name)
+        res = self.call([
+            'glistmaker', os.path.join(self.paths['fasta'], self.name + '.fasta'), '-w', '25', '-o',
+            os.path.join(self.paths['list'], self.name + '.list'), '-D'
+        ])
+        if res is 0:
+            self.logger.info("List for %s created", self.name)
+            self.list_created = True
+
+    def create_glist_result(self):
+        result_file_path = os.path.join(self.paths['query_result'], self.name + '.txt')
+        if os.path.exists(result_file_path):
+            os.remove(result_file_path)
+
+        # Call glistquery.
+        self.logger.info("Starting kmer query for %s!", self.name)
+        proc = subprocess.Popen([
+            'glistquery', os.path.join(self.paths['list'], self.name + '.list_25.list'), '-f', self.kmer_sample_path
+        ], stdout=subprocess.PIPE)
+        query_result_file = open(result_file_path, 'w+')
+        while True:
+            line = proc.stdout.readline()
+            if line != '':
+                # the real code does filtering here
+                query_result_file.write(line.rstrip())
+            else:
+                break
+        query_result_file.close()
+        proc.wait()
+        if proc.returncode is 0:
+            self.logger.info("Query result for %s written!", self.name)
+        else:
+            self.logger.err("Query result for %s FAILED!", self.name)
 
     def process(self):
         # Call fastq-dump.
-
-        res = self.call(
-            ['fastq-dump', self.name, '-O', self.paths['fasta'], '--fasta', '-X', '3000', '-v', '--split-spot'])
-        if res is 0:
-            self.fasta_dumped = True
+        self.create_fasta()
 
         # Delete .sra.
         # os.remove(os.path.join(paths['ncbi'], 'sra', self.name + '.sra'))
         # self.sra_deleted = True
 
         # Call glistmaker.
-        res = self.call([
-            'glistmaker', os.path.join(self.paths['fasta'], self.name + '.fasta'), '-w', '25', '-o',
-            os.path.join(self.paths['list'], self.name + '.list'), '-D'
-        ])
-        if res is 0:
-            self.list_created = True
+        self.create_glist()
 
         # Delete fasta.
         # os.remove(os.path.join(paths['fasta'], 'fasta', self.name + '.fasta'))
 
-        # Call glistquery.
-        proc = subprocess.Popen(['glistquery', ''], stdout=subprocess.PIPE)
-        while True:
-            line = proc.stdout.readline()
-            if line != '':
-                # the real code does filtering here
-                print "test:", line.rstrip()
-            else:
-                break
-
-        # Write glistquery results.
+        self.create_glist_result()
 
         # Delete .list
+
+        # TODO: more jobs here
+
         self.logger.info('Processed %s | %d in processing queue', self.name, self.q_process.qsize())
