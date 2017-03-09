@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/kmer_sample.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/kmer_sample_min.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlenpy/functions.py" afterPath="$PROJECT_DIR$/tlenpy/functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlenpy/get_srr.py" afterPath="$PROJECT_DIR$/tlenpy/get_srr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlenpy/job.py" afterPath="$PROJECT_DIR$/tlenpy/job.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +47,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="job.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="job.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tlenpy/job.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="792">
-                  <caret line="96" column="61" lean-forward="true" selection-start-line="96" selection-start-column="61" selection-end-line="96" selection-end-column="61" />
+                <state relative-caret-position="330">
+                  <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
                   <folding>
                     <element signature="e#0#17#0" expanded="true" />
                   </folding>
@@ -104,24 +99,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/readme.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="176">
-                    <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
+          <file leaf-file-name="run.sh" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tlenpy/run.sh">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="484">
@@ -131,7 +113,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="kmer_sample_min.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="kmer_sample_min.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
@@ -184,9 +166,9 @@
         <option value="$PROJECT_DIR$/tlenpy/functions.py" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/tlenpy/get_srr.py" />
-        <option value="$PROJECT_DIR$/tlenpy/job.py" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/tlenpy/kmer_sample_min.txt" />
+        <option value="$PROJECT_DIR$/tlenpy/job.py" />
       </list>
     </option>
   </component>
@@ -550,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489076871096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactored, added sample query">
+      <created>1489085956704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1489085956704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +598,8 @@
     <MESSAGE value="added user settings file, implemented queues" />
     <MESSAGE value="fixed logging" />
     <MESSAGE value="refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
+    <MESSAGE value="refactored, added sample query" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored, added sample query" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -876,24 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/job.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="96" column="61" lean-forward="true" selection-start-line="96" selection-start-column="61" selection-end-line="96" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -912,10 +884,28 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="176">
-            <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="75" column="46" lean-forward="false" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -73,7 +73,7 @@ class Job:
             return True
         self.logger.info('Prefetching %s', self.name)
         # Call prefetch
-        res = self.call(['prefetch', self.name, '-v', '-L', '5'])
+        res = self.call(['prefetch', self.name])
         if res is 0:
             self.sra_downloaded = True
             self.logger.info('Fetched %s | %d in download queue', self.name, self.q_download.qsize())
@@ -84,10 +84,10 @@ class Job:
 
     def create_fasta(self):
         if not self.fasta_dumped:
-            args = ['fastq-dump', self.name, '-O', self.paths['fasta'], '--fasta', '-v', '--split-spot']
+            args = ['fastq-dump', self.name, '-O', self.paths['fasta'], '--fasta', '--split-spot']
 
             if self.fasta_limit:
-                args.extend(['-X', self.fasta_limit])
+                args.extend(['-X', str(self.fasta_limit)])
 
             res = self.call(args)
             if res is 0:
