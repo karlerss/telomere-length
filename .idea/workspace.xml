@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user-settings.mkfg" />
+    <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="fi">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlenpy/get_srr.py" afterPath="$PROJECT_DIR$/tlenpy/get_srr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlenpy/run.sh" afterPath="$PROJECT_DIR$/tlenpy/run.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +26,8 @@
           <file leaf-file-name="get_srr.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="929">
-                  <caret line="140" column="75" lean-forward="false" selection-start-line="140" selection-start-column="75" selection-end-line="140" selection-end-column="75" />
+                <state relative-caret-position="648">
+                  <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -121,6 +117,7 @@
       <find>comm</find>
       <find>ncbi</find>
       <find>.fastq</find>
+      <find>call(</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -467,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488921459861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added user settings file, implemented queues">
+      <created>1489072544185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489072544185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -523,7 +527,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changed line endings" />
     <MESSAGE value="changed line endings, removed idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed line endings, removed idea" />
+    <MESSAGE value="added user settings file, implemented queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user settings file, implemented queues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -781,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="140" column="75" lean-forward="false" selection-start-line="140" selection-start-column="75" selection-end-line="140" selection-end-column="75" />
+        <state relative-caret-position="648">
+          <caret line="107" column="22" lean-forward="true" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

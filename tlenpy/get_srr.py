@@ -9,6 +9,7 @@ import csv
 import time
 import subprocess
 import logging
+from logging.handlers import TimedRotatingFileHandler
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -21,6 +22,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 handler = logging.StreamHandler()
 handler.setFormatter(formatter)
 handler.setLevel(logging.INFO)
+
 logger.addHandler(handler)
 
 
@@ -82,6 +84,15 @@ def check_bins():
         raise EnvironmentError("Missing binary.")
 
 
+def add_file_logger():
+    global paths
+    fh = TimedRotatingFileHandler(os.path.join(paths['logs'], 'log'), when='midnight', backupCount=7)
+    fh.setFormatter(formatter)
+    fh.setLevel(logging.INFO)
+    fh.suffix = "%Y-%m-%d"
+    logger.addHandler(fh)
+
+
 class Job:
     def __init__(self, name):
         self.name = name
@@ -99,9 +110,11 @@ class Job:
         while True:
             # If we don't need real time logging, we could just use p.communicate.
             out = p.stdout.readline()
-            logger.info(out)
+            if out.rstrip('\n'):
+                logger.info(out.rstrip('\n'))
             err = p.stderr.readline()
-            logger.error(err)
+            if err.rstrip('\n'):
+                logger.error(err.rstrip('\n'))
             if not err and not out:
                 logger.debug("Breaking out of std capture loop!")
                 break
@@ -184,10 +197,13 @@ paths = dict()
 @click.option('--ncbi_root', '-n', default='/data/ncbi', type=click.Path(exists=True),
               help='The ncbi data directory. Can be configured from ~/.ncbi/user-settings.mkfg')
 def main(run_table, query_list, data_root, ncbi_root):
-    check_bins()
     global paths
+
     paths = setup_tree(data_root)
     paths['ncbi'] = ncbi_root
+    add_file_logger()
+
+    check_bins()
 
     # TODO: remove sra lock and cache files before run
 
