@@ -133,19 +133,20 @@ class Job:
         self.create_fasta()
 
         # Delete .sra.
-        # os.remove(os.path.join(paths['ncbi'], 'sra', self.name + '.sra'))
-        # self.sra_deleted = True
+        os.remove(os.path.join(self.paths['ncbi'], 'sra', self.name + '.sra'))
+        self.sra_deleted = True
 
         # Call glistmaker.
         self.create_glist()
 
         # Delete fasta.
-        # os.remove(os.path.join(paths['fasta'], 'fasta', self.name + '.fasta'))
+        os.remove(os.path.join(self.paths['fasta'], 'fasta', self.name + '.fasta'))
+        self.fasta_deleted = True
 
         self.create_glist_result()
 
         # Delete .list
-
+        os.remove(os.path.join(self.paths['list'], self.name + '.list_25.list'))
         # TODO: more jobs here
 
         self.logger.info('Processed %s | %d in processing queue', self.name, self.q_process.qsize())

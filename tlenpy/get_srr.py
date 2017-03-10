@@ -1,6 +1,6 @@
 import click
 from Queue import Queue
-from threading import Thread
+from multiprocessing import Process
 import csv
 import logging
 from job import Job
@@ -39,6 +39,7 @@ def downloader():
 
 
 def processor():
+    logger.info('Spawned worker thread!')
     while True:
         # Block until job available.
         job = q_process.get()
@@ -56,7 +57,8 @@ def processor():
 @click.option('--check_fasta', type=click.BOOL, default=False)
 @click.option('--fasta_limit', type=click.INT, default=0,
               help='Set limit on dumped fasta lines. 3000 is optimal for debugging.')
-def main(run_table, query_list, data_root, ncbi_root, check_fasta, fasta_limit):
+@click.option('--processing_cores', '-p', default=1, type=click.INT)
+def main(run_table, query_list, data_root, ncbi_root, check_fasta, fasta_limit, processing_cores):
     global paths
 
     paths = setup_tree(data_root)
@@ -82,16 +84,19 @@ def main(run_table, query_list, data_root, ncbi_root, check_fasta, fasta_limit):
             name = line[8]
             q_download.put(Job(name))
 
-    print q_download.qsize()
+    # print q_download.qsize()
 
     # spawn worker threads
-    t_downloader = Thread(target=downloader)
+    t_downloader = Process(target=downloader)
     t_downloader.daemon = True
     t_downloader.start()
 
-    t_processor = Thread(target=processor)
-    t_processor.daemon = True
-    t_processor.start()
+    workers = list()
+    for i in range(0, processing_cores):
+        t_processor = Process(target=processor)
+        t_processor.daemon = True
+        t_processor.start()
+        workers.append(t_processor)
 
     # Block until downloads empty.
     q_download.join()
