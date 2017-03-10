@@ -118,7 +118,7 @@ class Job:
             line = proc.stdout.readline()
             if line != '':
                 # the real code does filtering here
-                query_result_file.write(line.rstrip())
+                query_result_file.write(line.rstrip() + '\n')
             else:
                 break
         query_result_file.close()
