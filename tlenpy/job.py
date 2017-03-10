@@ -129,6 +129,8 @@ class Job:
             self.logger.err("Query result for %s FAILED!", self.name)
 
     def process(self):
+        self.logger.info('Started processing %s. PID: %d', self.name, os.getpid())
+
         # Call fastq-dump.
         self.create_fasta()
 
@@ -140,7 +142,7 @@ class Job:
         self.create_glist()
 
         # Delete fasta.
-        os.remove(os.path.join(self.paths['fasta'], 'fasta', self.name + '.fasta'))
+        os.remove(os.path.join(self.paths['fasta'], self.name + '.fasta'))
         self.fasta_deleted = True
 
         self.create_glist_result()

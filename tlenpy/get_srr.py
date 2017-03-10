@@ -1,10 +1,13 @@
 import click
 from Queue import Queue
-from multiprocessing import Process
+from multiprocessing import Process, Pool, JoinableQueue
 import csv
 import logging
 from job import Job
 from functions import *
+from time import sleep
+import random
+
 
 logging.basicConfig(level=logging.DEBUG)
 root = logging.getLogger()
@@ -15,8 +18,10 @@ handler = logging.StreamHandler()
 handler.setFormatter(formatter)
 handler.setLevel(logging.INFO)
 logger.addHandler(handler)
-q_download = Queue()
-q_process = Queue(10)
+
+q_download = JoinableQueue()
+q_process = JoinableQueue(10)
+
 paths = dict()
 
 
@@ -38,10 +43,11 @@ def downloader():
             q_download.task_done()
 
 
-def processor():
+def processor(q_process):
     logger.info('Spawned worker thread!')
     while True:
         # Block until job available.
+        sleep(random.randint(0,9))
         job = q_process.get()
         job.process()
         q_process.task_done()
@@ -91,12 +97,8 @@ def main(run_table, query_list, data_root, ncbi_root, check_fasta, fasta_limit, 
     t_downloader.daemon = True
     t_downloader.start()
 
-    workers = list()
-    for i in range(0, processing_cores):
-        t_processor = Process(target=processor)
-        t_processor.daemon = True
-        t_processor.start()
-        workers.append(t_processor)
+    workers = Pool(processing_cores, processor, (q_process,))
+
 
     # Block until downloads empty.
     q_download.join()
