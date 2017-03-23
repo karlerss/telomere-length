@@ -1,66 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="add newlines to result file">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/PyMySQL-0.7.10.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/PyMySQL-0.7.10.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/PyMySQL-0.7.10.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/PyMySQL-0.7.10.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/PyMySQL-0.7.10.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/PyMySQL-0.7.10.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/PyMySQL-0.7.10.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/click-6.7.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/click-6.7.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/click-6.7.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/click-6.7.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/click-6.7.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/click-6.7.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/click-6.7.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/_socketio.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/charset.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/connections.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/CLIENT.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/COMMAND.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/CR.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/ER.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/FIELD_TYPE.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/FLAG.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/SERVER_STATUS.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/constants/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/converters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/cursors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/err.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/optionfile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_DictCursor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_SSCursor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_basic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_connection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_converters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_cursor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_err.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_issues.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_load_local.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_nextset.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/test_optionfile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/thirdparty/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/thirdparty/test_MySQLdb/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/thirdparty/test_MySQLdb/capabilities.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/thirdparty/test_MySQLdb/dbapi20.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_capabilities.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_dbapi20.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/tests/thirdparty/test_MySQLdb/test_MySQLdb_nonstandard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/times.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/pymysql/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/snp_kmers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/snp_kmers_min.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tlenpy/snp_to_kmer.py" />
+    <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlenpy/kmer_sample_min.txt" afterPath="$PROJECT_DIR$/tlenpy/kmer_sample_min.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,8 +35,18 @@
       <file leaf-file-name="kmer_sample_min.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="24" />
+            <state relative-caret-position="-27870">
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kmer_sample.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -132,15 +85,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="308">
-                <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+                <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_srr.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,6 +144,7 @@
       <find>seq_re</find>
       <find>seq_region_id</find>
       <find>print</find>
+      <find>cores</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -640,20 +604,27 @@
       <option name="project" value="LOCAL" />
       <updated>1489107587973</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added snp to kmer">
+      <created>1490282847358</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490282847358</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="265" y="368" width="2986" height="1299" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2004717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2004717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31153184" sideWeight="0.5013477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30550775" sideWeight="0.5013477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31153184" sideWeight="0.49865228" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30550775" sideWeight="0.49865228" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -703,7 +674,8 @@
     <MESSAGE value="get line limit as int" />
     <MESSAGE value="added local click, threading -&gt; multiprocessing, adjustable parallelism" />
     <MESSAGE value="add newlines to result file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add newlines to result file" />
+    <MESSAGE value="added snp to kmer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added snp to kmer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -738,6 +710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2266">
           <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,6 +718,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -752,6 +728,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2662">
           <caret line="122" column="21" lean-forward="true" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#17#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -811,6 +790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -857,6 +837,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="880">
           <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -896,6 +877,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="19" column="65" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -933,6 +915,7 @@
         <state relative-caret-position="638">
           <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <caret line="33" column="50" lean-forward="false" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -983,13 +966,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2266">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -997,6 +976,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="122" column="21" lean-forward="false" selection-start-line="122" selection-start-column="21" selection-end-line="122" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#17#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,14 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1075,10 +1049,34 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="308">
-            <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27870">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
