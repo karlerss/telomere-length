@@ -2,8 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/.ipynb_checkpoints/Test1-checkpoint.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113733.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113737.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113739.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113741.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113742.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113743.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113744.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113745.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113746.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113750.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113751.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113755.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113756.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113759.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113760.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113768.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113771.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113772.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113773.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113774.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113776.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113778.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113782.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113784.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113785.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113786.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113787.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113788.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113789.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113790.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113791.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113792.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113793.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113794.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113795.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113796.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113797.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113798.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113799.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113800.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113804.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113805.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113806.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113807.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113808.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113809.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113814.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113816.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113817.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113818.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113819.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113820.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113821.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113822.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113826.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113827.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113828.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113829.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113830.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113831.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113832.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113833.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113836.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113837.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113838.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113839.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113840.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113841.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113842.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113843.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113847.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113848.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113849.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113854.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113855.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113857.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113858.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113859.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113860.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113861.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113862.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113863.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113867.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113868.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113869.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113870.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113871.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113875.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113876.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/static/SraRunTable.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/static/snp_kmers.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tlenpy/kmer_sample_min.txt" afterPath="$PROJECT_DIR$/tlenpy/kmer_sample_min.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,41 +115,80 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tlenpy/run.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="kmer_sample_min.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27870">
-              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="66">
+              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kmer_sample.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="84" column="19" lean-forward="false" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kmer_sample.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+            <state relative-caret-position="242">
+              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ipupdate.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python34/ipupdate.py">
+      <file leaf-file-name="snp_kmers_min.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tlenpy/snp_kmers_min.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="snp_kmers.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tlenpy/snp_kmers.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="862" column="8" lean-forward="false" selection-start-line="862" selection-start-column="0" selection-end-line="862" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tlenpy/Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test1.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SraRunTable.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tlenpy/SraRunTable.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="31" column="92" lean-forward="false" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -65,8 +197,8 @@
       <file leaf-file-name="snp_to_kmer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tlenpy/snp_to_kmer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+            <state relative-caret-position="642">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1490282319268" expanded="true" signature="828:968" ph="SELECT * FRO... variation" />
@@ -85,24 +217,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="308">
-                <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="get_srr.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
-              <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+              <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -119,11 +238,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
-      <find>len</find>
-      <find>telolen</find>
-      <find>\n\r</find>
-      <find>user</find>
       <find>logging</find>
       <find>comm</find>
       <find>ncbi</find>
@@ -145,6 +259,15 @@
       <find>seq_region_id</find>
       <find>print</find>
       <find>cores</find>
+      <find>ACTGCTGTGGATGAGAAATATATTC</find>
+      <find>rs10936599</find>
+      <find>$P</find>
+      <find>rs12696304</find>
+      <find>SRR2113841</find>
+      <find>pass</find>
+      <find>CTCTTCACTACATTTACTTACTGCT</find>
+      <find>GAGTCAAAAGCAGATACGTGTGTCA</find>
+      <find>30</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -167,6 +290,8 @@
         <option value="$PROJECT_DIR$/tlenpy/job.py" />
         <option value="$PROJECT_DIR$/tlenpy/snp_to_kmer.py" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/tlenpy/snp_kmers.txt" />
+        <option value="$PROJECT_DIR$/analysis/Dockerfile" />
       </list>
     </option>
   </component>
@@ -220,7 +345,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tlenpy" />
+              <option name="myItemId" value="analysis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,7 +359,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
+              <option name="myItemId" value="analysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="srv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notebooks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,7 +744,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490282847358</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated kmer file">
+      <created>1490286105871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1490286105871</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -675,37 +815,14 @@
     <MESSAGE value="added local click, threading -&gt; multiprocessing, adjustable parallelism" />
     <MESSAGE value="add newlines to result file" />
     <MESSAGE value="added snp to kmer" />
-    <option name="LAST_COMMIT_MESSAGE" value="added snp to kmer" />
+    <MESSAGE value="updated kmer file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated kmer file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tlenpy/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/ipupdate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2266">
@@ -955,13 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/SraRunTable.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="98" lean-forward="false" selection-start-line="4" selection-start-column="88" selection-end-line="4" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1019,27 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/snp_to_kmer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1490282319268" expanded="true" signature="828:968" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1046" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1047" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1120" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1125" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1146" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1150" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1151" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1155" ph="SELECT * FRO... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:1179" ph="SELECT v.nam... variation" />
-            <marker date="1490282319268" expanded="true" signature="828:2684" ph="SELECT * FRO... variation" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1059,24 +1148,92 @@
     <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="71" column="34" lean-forward="true" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
+          <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
+    <entry file="file://$PROJECT_DIR$/tlenpy/snp_to_kmer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27870">
-          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="642">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1490282319268" expanded="true" signature="828:968" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1046" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1047" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1120" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1125" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1146" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1150" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1151" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1155" ph="SELECT * FRO... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:1179" ph="SELECT v.nam... variation" />
+            <marker date="1490282319268" expanded="true" signature="828:2684" ph="SELECT * FRO... variation" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/SraRunTable.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="92" lean-forward="false" selection-start-line="31" selection-start-column="92" selection-end-line="31" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="84" column="19" lean-forward="false" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="61" lean-forward="true" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        <state relative-caret-position="242">
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/kmer_sample_min.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/snp_kmers_min.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/snp_kmers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="862" column="8" lean-forward="false" selection-start-line="862" selection-start-column="0" selection-end-line="862" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tlenpy/Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
         </state>
       </provider>
     </entry>
