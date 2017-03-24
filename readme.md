@@ -13,3 +13,11 @@ kmer_sample_min.txt contains:
 * lines 1584 - 3083 k-mers from telomere-length associated SNP-s (Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv)
 
 On mamba run with `nohup ... &>/dev/null &`
+
+###Analysis
+
+To run the analysis:
+
+1. build the docker image from /analysis dockerfile
+1. `docker run -d -p=6006:6006 -p=8888:8888 -v=//f//srv//notebooks://srv keras`
+1. navigate to localhost:8888 and open the notebook

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/srv/notebooks/.ipynb_checkpoints/Test1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/.ipynb_checkpoints/Test1-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,11 +82,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test1.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="484">
+                <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -108,29 +120,6 @@
             <state relative-caret-position="-1210">
               <caret line="147" column="136" lean-forward="false" selection-start-line="147" selection-start-column="132" selection-end-line="147" selection-end-column="136" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snp_to_kmer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tlenpy/snp_to_kmer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1490282319268" expanded="true" signature="828:968" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1046" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1047" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1120" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1125" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1146" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1150" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1151" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1155" ph="SELECT * FRO... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:1179" ph="SELECT v.nam... variation" />
-                <marker date="1490282319268" expanded="true" signature="828:2684" ph="SELECT * FRO... variation" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -197,10 +186,10 @@
         <option value="$PROJECT_DIR$/tlenpy/get_srr.py" />
         <option value="$PROJECT_DIR$/tlenpy/job.py" />
         <option value="$PROJECT_DIR$/tlenpy/snp_to_kmer.py" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/tlenpy/snp_kmers.txt" />
         <option value="$PROJECT_DIR$/analysis/Dockerfile" />
         <option value="$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -700,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490365615292</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added notebook checkpoint">
+      <created>1490365958008</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1490365958009</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -767,7 +763,8 @@
     <MESSAGE value="updated kmer file" />
     <MESSAGE value="added sample data" />
     <MESSAGE value="added new data, tried things with model" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new data, tried things with model" />
+    <MESSAGE value="added notebook checkpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="added notebook checkpoint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1078,22 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/get_srr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -1191,6 +1172,22 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="484">
+            <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
