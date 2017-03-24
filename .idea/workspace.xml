@@ -2,179 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2aa4a84-302d-4c9d-85ad-35f82a8ffd2d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2112586.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2112587.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2112588.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113598.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113599.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113600.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113602.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113603.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113604.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113606.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113607.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113608.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113609.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113610.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113611.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113612.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113613.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113614.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113615.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113616.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113617.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113618.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113619.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113620.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113621.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113622.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113623.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113624.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113625.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113626.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113627.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113628.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113629.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113630.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113631.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113632.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113633.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113634.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113635.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113636.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113637.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113638.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113639.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113641.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113642.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113643.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113644.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113645.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113646.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113647.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113648.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113649.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113650.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113651.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113652.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113653.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113655.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113656.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113657.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113658.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113659.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113660.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113661.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113662.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113663.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113664.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113665.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113666.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113667.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113668.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113670.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113671.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113673.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113674.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113675.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113676.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113677.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113678.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113679.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113680.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113681.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113682.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113683.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113684.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113685.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113686.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113687.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113688.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113689.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113690.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113691.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113692.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113693.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113694.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113695.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113696.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113697.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113698.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113699.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113700.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113701.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113702.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113703.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113704.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113705.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113706.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113707.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113708.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113709.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113710.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113711.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113712.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113713.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113714.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113715.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113716.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113717.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113718.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113719.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113720.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113721.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113722.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113723.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113724.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113725.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113726.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113727.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113728.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113729.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113734.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113735.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113736.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113738.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113740.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113747.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113748.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113749.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113752.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113753.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113754.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113757.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113758.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113767.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113769.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113770.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113777.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113779.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113780.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2113781.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114271.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114272.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114273.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114276.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114277.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114278.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114279.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114280.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114281.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114282.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114283.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114284.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114290.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114292.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114307.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114309.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114312.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114325.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114327.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114336.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114341.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114361.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114363.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/files/SRR2114396.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/srv/notebooks/.ipynb_checkpoints/Test1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/.ipynb_checkpoints/Test1-checkpoint.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb" afterPath="$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb" />
@@ -246,17 +73,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tlenpy/Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="406">
+              <caret line="29" column="72" lean-forward="true" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.ipynb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test1.ipynb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -319,7 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>comm</find>
       <find>ncbi</find>
       <find>.fastq</find>
       <find>call(</find>
@@ -349,6 +175,7 @@
       <find>GAGTCAAAAGCAGATACGTGTGTCA</find>
       <find>30</find>
       <find>3807</find>
+      <find>23535734</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -373,6 +200,7 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/tlenpy/snp_kmers.txt" />
         <option value="$PROJECT_DIR$/analysis/Dockerfile" />
+        <option value="$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb" />
       </list>
     </option>
   </component>
@@ -474,7 +302,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
+              <option name="myItemId" value=".ipynb_checkpoints" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -865,7 +693,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490315724791</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added new data, tried things with model">
+      <created>1490365615292</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1490365615292</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -931,7 +766,8 @@
     <MESSAGE value="added snp to kmer" />
     <MESSAGE value="updated kmer file" />
     <MESSAGE value="added sample data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sample data" />
+    <MESSAGE value="added new data, tried things with model" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new data, tried things with model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1335,13 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/SraRunTable.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1210">
@@ -1352,9 +1181,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tlenpy/Variation-Locations-Homo_sapiens_Phenotype_Locations_Telomere_length.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        <state relative-caret-position="406">
+          <caret line="29" column="72" lean-forward="true" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/srv/notebooks/Test1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
         </state>
       </provider>
     </entry>
